@@ -1,20 +1,20 @@
-# Travii public site
+# Travii
 
-This folder is standalone. When the copy is approved, move its contents into a
-new public GitHub repository and enable GitHub Pages from the repository root.
+Travii helps you rediscover past trips from your iPhone photo library and keep a simple personal Journey of the places, moments, and expenses that matter.
 
-## Test locally
+This repository contains Travii’s public website, including its Privacy Policy and Support pages.
 
-From the Travii project root:
+## Preview locally
+
+From this repository’s root:
 
 ```sh
-python3 -m http.server 4173 --directory site
+python3 -m http.server 4173
 ```
 
 Then open [http://localhost:4173](http://localhost:4173).
 
-## Before publishing
+## Pages
 
-1. Confirm that the support address in `site-config.js` is an inbox you monitor for support and privacy requests.
-2. Review the policy against the final app behavior and publish the site.
-3. Use the resulting `/privacy.html` URL in App Store Connect’s Privacy Policy field and `/support.html` URL as the Support URL.
+- [Privacy Policy](privacy.html)
+- [Support](support.html)
